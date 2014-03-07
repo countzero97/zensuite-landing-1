@@ -85,7 +85,8 @@ h2 {
 /* Menu
  * --------------------------------------- */
 nav {
-	background: #1B1B1B;
+	background-color: #1B1B1B;
+	background-color: rgba(10,10,10,0.8);
 	position: absolute;
 	top: 0;
 	width: 100%;
