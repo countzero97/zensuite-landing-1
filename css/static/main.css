@@ -1,370 +1,315 @@
-body, h1, h2, p, a {
-	font-family: 'Raleway', sans-serif;
-	color: #333;
+body,
+h1,
+h2,
+p,
+a {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
 }
-
 h1 {
-	font-size: 5.1em;
-	font-weight: 700;
-	color: #333;
-	margin:0 auto;
-	padding:0 5px;
-	line-height: 1;
+  font-size: 5.1em;
+  font-weight: 700;
+  color: #333;
+  margin: 0 auto;
+  padding: 0 5px;
+  line-height: 1;
 }
-
 h2 {
-	font-size: 1.1em;
-	font-weight: normal;
-	padding: 0 5px;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 0 0 5px 0;
 }
-
 .white h1 {
-	color: #fff;
+  color: #fff;
 }
-
 .white h2 {
-	color: #eee;
+  color: #eee;
 }
-
 .black h1 {
-	color: #333;
+  color: #333;
 }
-
 .black h2 {
-	color: #555;
+  color: #555;
+}
+.section {
+  text-align: center;
 }
 
-.section{
-	text-align:center;
+/* Buttons */
+.btn-rounded {
+padding-top: 8px;
+border-radius: 30px;
+padding: 8px 14px;
+text-decoration: none;
+}
+
+.btn-dark {
+background: #111;
+color: #FFF;
+}
+
+.btn-light {
+  background: #EEE;
+  color: #000;
 }
 
 /* Mail Signup */
 
 #mail-signup {
-	position: absolute;
-	margin: 0 auto;
-	display: block;
-	width: 100%;
-	bottom: 25%;
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  bottom: 25%;
 }
-
-#mail-signup label.control-label{
-	color: #eee;
-	font-weight: bold;
-	padding-bottom: 8px;
-	display: block;
-	margin: 5px
+#mail-signup label.control-label {
+  color: #eee;
+  font-weight: bold;
+  padding-bottom: 8px;
+  display: block;
+  margin: 5px
 }
-
 #mail-signup input {
-	padding: 7px 15px 7px 15px;
-	border-radius: 20px;
-	border: 0;
+  padding: 7px 15px 7px 15px;
+  border-radius: 20px;
+  border: 0;
 }
-
 #mail-signup .btn-subscribe {
-	background: #369C36;
+  background: #369C36;
 }
-
-
 /* Tooltips */
 
 .ui-tooltip {
-	color: #eee;
-	padding: 8px;
-	position: absolute;
-	z-index: 9999;
-	max-width: 300px;
-	background: #111;
-	text-transform: uppercase;
-	font-size: 13px;
+  color: #eee;
+  padding: 8px;
+  position: absolute;
+  z-index: 9999;
+  max-width: 300px;
+  background: #111;
+  text-transform: uppercase;
+  font-size: 13px;
 }
+/* Menu */
 
-
-
-/* Menu
- * --------------------------------------- */
 nav {
-	background-color: #1B1B1B;
-	background-color: rgba(10,10,10,0.8);
-	position: absolute;
-	top: 0;
-	width: 100%;
+  background-color: #1B1B1B;
+  background-color: rgba(10, 10, 10, 0.8);
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 nav .menu-content {
-    width: 85%;
-    margin: 0 auto;
+  width: 85%;
+  margin: 0 auto;
 }
-
 nav ul {
-	display: inline-block;
-	margin: 0;
-	padding: 0;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
-
 nav ul.pull-right {
-    float: right;
+  float: right;
 }
-
 nav ul.pull-left {
-    float: left;
+  float: left;
 }
-
-
 nav li {
-    display:inline-block;
-    padding: 15px 12px 12px 12px;
+  display: inline-block;
+  padding: 15px 12px 12px 12px;
 }
-
 nav li.logo {
-	padding: 9px 0px 5px 10px;
+  padding: 9px 0px 5px 10px;
 }
-
-nav li.logo img{
-	width: 45px;
-	padding-right: 5px;
-	vertical-align: bottom;
+nav li.logo img {
+  width: 45px;
+  padding-right: 5px;
+  vertical-align: bottom;
 }
-
 nav li.logo a {
-	font-size: 19px;
-	vertical-align: middle;
+  font-size: 19px;
+  vertical-align: middle;
 }
-
 nav a {
-    font-size: 14px;
-    font-weight: 500;
-    display:block;
-    float:left;
-    color: #E9E9E9;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  float: left;
+  color: #E9E9E9;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-nav li  {
-}
-
-nav a:hover, nav a:active {
-    color: #fff;
+nav li {} nav a:hover,
+nav a:active {
+  color: #fff;
 }
 nav #pull {
-    display: none;
+  display: none;
 }
- 
 /* Icon Menu */
 
 #icon-menu {
-	font-weight: bold;
-	font-size: 12px;
-	color: #333;
-	position:fixed;
-	top: 50%;
-	margin-top: -185px;
-	z-index: 1;
-	width: auto;
-	right: 30px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #333;
+  position: fixed;
+  top: 50%;
+  margin-top: -185px;
+  z-index: 1;
+  width: auto;
+  right: 30px;
 }
-
 #icon-menu span,
 #icon-menu img {
-	display: none;
+  display: none;
 }
-
 #icon-menu ul {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
-
 #icon-menu ul li {
-	margin: 0 auto;
+  margin: 0 auto;
 }
-
-#icon-menu ul li a{
-	/*
-	text-decoration: none;
-	text-transform: uppercase;
-	width: 9px;
-	height: 9px;
-	background: #000;
-	border: 1px solid #FFF;
-	display: block;
-	border-radius: 50%;
-	margin-top: 30px;
-	margin-left: 2px;*/
-
-	margin-top: 30px;
-	width: 14px;
-	height: 14px;
-	background: url(/img/bullets.png) no-repeat 0 0;
-	display: block;
-
+#icon-menu ul li a {
+  margin-top: 30px;
+  width: 14px;
+  height: 14px;
+  background: url(/img/bullets.png) no-repeat 0 0;
+  display: block;
 }
-
 #icon-menu ul li.active a {
-	background-position: 100% 0;
+  background-position: 100% 0;
 }
-
 #icon-menu ul li img {
-	height: 18px;
-	width: 18px;
-	padding-left: 5px;
+  height: 18px;
+  width: 18px;
+  padding-left: 5px;
 }
 
-
-/* Sections
- * --------------------------------------- */
+/* Sections */
 
 .service {
-	visibility: hidden;
+  visibility: hidden;
 }
-
 .visible {
-    visibility: visible;
+  visibility: visible;
+}
+.section,
+.slide {
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+#section0 {
+  background-image: url(/img/backgrounds/h-land-0.jpg);
+}
+#section0 .service {
+  margin-top: -17%;
 }
 
-.section, .slide {
-	background-size: cover;
-	background-position: bottom center;
-	background-repeat: no-repeat;
- }
- #section0{
-	background-image: url(/img/backgrounds/h-land-0.jpg);
- }
- #section0 .service { margin-top: -17%; }
+#section1 {
+  background-image: url(/img/backgrounds/h-land-1.jpg);
+}
+#section1 .service {
+  margin-top: -10%;
+}
+#section2 {
+  background-image: url(/img/backgrounds/h-land-2.jpg);
+}
+#section2 .service {
+  margin-top: -7%;
+}
+#section3 {
+  background-image: url(/img/backgrounds/h-land-3.jpg);
+}
+#section3 .service {
+  margin-top: -8%;
+}
+#section4 {
+  background-image: url(/img/backgrounds/h-land-4.jpg);
+}
+#section4 .service {
+  margin-top: -7%;
+}
+#section5 {
+  background-image: url(/img/backgrounds/h-land-5.jpg);
+}
+#section5 .service {
+  margin-top: -11%;
+}
+#section6 {
+  background-image: url(/img/backgrounds/h-land-6.jpg);
+}
+#section6 .service {
+  margin-top: -10%;
+}
+#section7 {
+  background-image: url(/img/backgrounds/h-land-7.jpg);
+}
+#section7 .service {
+  margin-top: -1%;
+}
+#section8 {
+  background-image: url(/img/backgrounds/h-land-8.jpg);
+}
+#section8 .service {
+  margin-top: -12%;
+}
 
+/* Responsiveness */
 
-/*
+/* Desktop */
+@media only screen and (min-width: 1025px) {}
+/* Tablets - landscape */
 
- #section1 .service-text{
-	padding: 13% 0 0 0;
- }
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 4em;
+  }
+  #icon-navigation {
+    display: none;
+  }
+}
+/* Tablets - portrait */
 
- #section1 .start{
-	background-image: url(/img/backgrounds/h-land-1.jpg);
- }
- #section1 .expo{
-	background-image: url(/img/backgrounds/h-land-5.jpg);
- }
-*/
+@media only screen and (max-width: 860px) {
+  h1 {
+    font-size: 4em;
+  }
+  nav ul {
+    display: none;
+    height: auto;
+  }
+  nav .menu-content {
+    width: 100%;
+  }
+  nav #pull {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+}
+/* Smartphones - landscape & portrait */
 
-
- #section1{
-	background-image: url(/img/backgrounds/h-land-1.jpg);
- }
- #section1 .service { margin-top: -10%; }
-
-
- #section2{
-	background-image: url(/img/backgrounds/h-land-2.jpg);
- }
- #section2 .service { margin-top: -7%; }
-
-
- #section3{
-	background-image: url(/img/backgrounds/h-land-3.jpg);
- }
- #section3 .service { margin-top: -8%; }
-
-
- #section4{
-	background-image: url(/img/backgrounds/h-land-4.jpg);
- }
- #section4 .service { margin-top: -7%; }
-
-
- #section5{
-	background-image: url(/img/backgrounds/h-land-5.jpg);
- }
- #section5 .service { margin-top: -11%; }
-
-
- #section6{
-	background-image: url(/img/backgrounds/h-land-6.jpg);
- }
- #section6 .service { margin-top: -10%; }
-
-
- #section7{
-	background-image: url(/img/backgrounds/h-land-7.jpg);
- }
- #section7 .service { margin-top: -1%; }
-
-
- #section8{
-	background-image: url(/img/backgrounds/h-land-8.jpg);
- }
- #section8 .service { margin-top: -12%; }
-
-
- /*  --------------------------
-    MEDIA QUERIES
-    --------------------------  */
-     
-    /* Desktop screens ----------- */
-    @media only screen and (min-width : 1025px)  {
-    }
- 
-    /* Tablets (landscape) ----------- */
-    @media only screen and (max-width : 1024px){
-    	h1{
-    		font-size: 4em;
-    	}
-    	
-    	#icon-navigation {
-    		display: none;
-    	}
-    }
- 
-    /* Tablets (portrait) ----------- */
-    @media only screen and (max-width : 860px) {
-    	h1{
-    		font-size: 4em;
-    	}
-
-	    nav ul {
-	        display: none;
-	        height: auto;
-	    }
-	    nav .menu-content {
-	    	width: 100%;
-	    }
-	    nav #pull {
-	        display: block;
-	        width: 100%;
-	        position: relative;
-	    }
-
-
-
-    }
- 
-    /* Smartphones (landscape & portrait) ----------- */
-    @media only screen and (max-width : 600px) {
-    	h1{
-    		font-size: 2em;
-    	}
-
-    	#mail-signup {
-    		display: none;
-    	}
-
-
-    }
-
-    
-#jPanelMenu-menu{
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+  #mail-signup {
+    display: none;
+  }
+}
+#jPanelMenu-menu {
   background: #000;
   margin-top: 0;
   padding: 15px 15px 0 15px;
 }
-
-#jPanelMenu-menu a{
+#jPanelMenu-menu a {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
 }
-
 .menu-trigger i {
   color: #fff;
   position: absolute;

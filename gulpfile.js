@@ -15,13 +15,13 @@ var gulp = require('gulp'),
             };
         });
 
-        gulp.src('./swig/*.html', {
+        gulp.src('./swig/**/*.html', {
             read: false
         })
             .pipe(swig(options['en']))
             .pipe(gulp.dest('./'))
         
-        gulp.src('./swig/*.html', {
+        gulp.src('./swig/**/*.html', {
             read: false
         })
             .pipe(swig(options['it']))
