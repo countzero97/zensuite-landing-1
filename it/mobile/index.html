@@ -39,17 +39,28 @@
         <span class="icon-bar"></span>
       </button>
       <div class="navbar-brand" href="#">
-        <div class="logo"></div>
-        <span><b>ZEN</b>SUITE</span>
+        <a href="/">
+          <div class="logo"></div>
+          <span><b>Zen</b>Suite</span>
+        </a>
       </div>
     </div>
     <div class="collapse navbar-collapse text-center">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">SERVIZI</a></li>
-        <li><a href="#prezzi">PREZZI</a></li>
-        <li><a href="#blog">BLOG</a></li>
-        <li><a href="#accedi">ACCEDI</a></li>
-        <li><a href="#registrati">REGISTRATI</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVIZI <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/general">PANORAMICA</a></li>
+            <li><a href="/booking-engine">BOOKING ENGINE</a></li>
+            <li><a href="/website-builder">WEBSITE BUILDER</a></li>
+            <li><a href="/mobile">MOBILE</a></li>
+            <li><a href="/facebook-app">FACEBOOK APP</a></li>
+          </ul>
+        </li>
+        <!--<li><a href="#prezzi">PREZZI</a></li>-->
+        <li><a href="http://blog.zensuite.net">BLOG</a></li>
+        <!--<li><a href="#accedi">ACCEDI</a></li>
+        <li><a href="#registrati">REGISTRATI</a></li>-->
       </ul>
     </div>
   </div>
@@ -90,7 +101,6 @@
             <div class="banner">
               <ul>
                 <li class="iphone-mid-tap"></li>
-                <li class="iphone-mid-rate"></li>
               </ul>
             </div>
           </div>
@@ -101,12 +111,10 @@
       
 
     
-    
     <div class="row section">
       <div class="col-md-6 wow fadeInLeft text-center" data-wow-delay="0.4s">
-        
-
-<div class="iphone-mid">
+      
+        <div class="iphone-mid">
           <div class="iphone-mid-inside">
             <div class="banner">
               <ul>
@@ -117,10 +125,11 @@
           </div>
         </div>
         
-    </div>
+      </div>
+      
       <div class="col-md-6 wow fadeInRight text-right" data-wow-delay="0.2s">
         <h1>Booking Engine dedicato</h1>
-        <h3>Il booking engine di ZENsuite è integrato e dedicato agli smartphone e ai tablet per ottimizzare l'esperienza di prenotazione e renderla più semplice e veloce. 
+        <h3>Il booking engine di ZenSuite è integrato e dedicato agli smartphone e ai tablet per ottimizzare l'esperienza di prenotazione e renderla più semplice e veloce. 
 
         L'interfaccia multitouch permette di rendere il procedimento e l'esperienza utente appagante e completa e trasforma il maggior numero di utenti in clienti trasformando la frustrazione in soddisfazione.
         </h3>
@@ -128,14 +137,8 @@
     </div>
     
     
-    
-    
-    
-    
-    
   </div>
 </div>
-
 
 
 <div class="container-fluid section-bottom">
@@ -144,7 +147,7 @@
     <div class="row">
       <div class="col-md-12">
         <h1 class="text-md">Altre caratteristiche</h1>
-        <h2>ZENsuite ti offre anche mappe dedicate per il mobile che sfruttano la geolocalizzazione del cliente, foto ottimizzate per smartphone per una navigazione più veloce, aggiornamenti costanti per tutti i nuovi device, la possibilità di effettuare offerte last second come HotelTonight, una immagine coordinata su tutti i device e un’ottimizzazione totale per una navigazione migliore.</h2>
+        <h2>ZenSuite ti offre anche mappe dedicate per il mobile che sfruttano la geolocalizzazione del cliente, foto ottimizzate per smartphone per una navigazione più veloce, aggiornamenti costanti per tutti i nuovi device, la possibilità di effettuare offerte last second come HotelTonight, una immagine coordinata su tutti i device e un’ottimizzazione totale per una navigazione migliore.</h2>
       </div>
     </div>
         
@@ -191,15 +194,15 @@
 <div class="footer">
   <div class="row">
     <div class="col-sm-4">
-      <div class="logo-white"></div>
-      <h2>
-        <b>ZEN</b>SUITE</h2>
-        <ul class="social-icons list-inline">
-          <li><a href="https://www.facebook.com/zensuite"><i class="fa fa-facebook"></i></a></li>
-          <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-          <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-        
+      <a href="/">
+        <div class="logo-white"></div>
+        <h2><b>Zen</b>Suite</h2>
+      </a>
+      <ul class="social-icons list-inline">
+        <li><a href="https://www.facebook.com/zensuite"><i class="fa fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+      </ul>
     </div>
     <div class="col-sm-8 pull-right text-right">
       <p>&copy; 2014 ZenTechnologies Ltd | All Rights Reserved</p>
@@ -209,13 +212,16 @@
   
 
 <!-- JS -->
+<script src="/bower_components/prefixfree/prefixfree.min.js"></script>
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="/js/services/modernizr.custom.js"></script>
 <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/bower_components/unslider/src/unslider.min.js"></script>
 <script src="/bower_components/wow/dist/wow.min.js"></script>
 <script src="/js/services/morphing-device.js"></script>
+<script src="/js/services/magnifying.js"></script>
 <script src="/js/services/main.js"></script>
+
 
 </body>
 

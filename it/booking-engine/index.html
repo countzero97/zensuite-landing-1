@@ -39,17 +39,28 @@
         <span class="icon-bar"></span>
       </button>
       <div class="navbar-brand" href="#">
-        <div class="logo"></div>
-        <span><b>ZEN</b>SUITE</span>
+        <a href="/">
+          <div class="logo"></div>
+          <span><b>Zen</b>Suite</span>
+        </a>
       </div>
     </div>
     <div class="collapse navbar-collapse text-center">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">SERVIZI</a></li>
-        <li><a href="#prezzi">PREZZI</a></li>
-        <li><a href="#blog">BLOG</a></li>
-        <li><a href="#accedi">ACCEDI</a></li>
-        <li><a href="#registrati">REGISTRATI</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVIZI <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/general">PANORAMICA</a></li>
+            <li><a href="/booking-engine">BOOKING ENGINE</a></li>
+            <li><a href="/website-builder">WEBSITE BUILDER</a></li>
+            <li><a href="/mobile">MOBILE</a></li>
+            <li><a href="/facebook-app">FACEBOOK APP</a></li>
+          </ul>
+        </li>
+        <!--<li><a href="#prezzi">PREZZI</a></li>-->
+        <li><a href="http://blog.zensuite.net">BLOG</a></li>
+        <!--<li><a href="#accedi">ACCEDI</a></li>
+        <li><a href="#registrati">REGISTRATI</a></li>-->
       </ul>
     </div>
   </div>
@@ -61,7 +72,7 @@
     <h1 class="text-xl">RICEVI PRENOTAZIONI DIRETTAMENTE DAL TUO SITO</h1>
     <h2>
       I clienti sono ormai abituati a prenotare online. Il booking engine di
-      <b>ZEN</b>SUITE ti consente di ricevere prenotazioni sul tuo sito, gestendo in modo flessibile e completo tutte le tue esigenze di camere e tariffazioni. Potrai gestire le garanzie delle prenotazioni come caparre, cancellation policy e preautorizzazioni sulle carte di credito per metterti al riparo dai no-show.
+      <b>ZenSuite</b> ti consente di ricevere prenotazioni sul tuo sito, gestendo in modo flessibile e completo tutte le tue esigenze di camere e tariffazioni. Potrai gestire le garanzie delle prenotazioni come caparre, cancellation policy e preautorizzazioni sulle carte di credito per metterti al riparo dai no-show.
     </h2>
 
     <div class="col-md-10 col-md-offset-1 text-center wow fadeInDown">
@@ -78,7 +89,7 @@
   <div class="container">
     
     <div class="row section">
-      <div class="col-md-6  wow fadeInLeft" data-wow-delay="0.2s">
+      <div class="col-md-5  wow fadeInLeft" data-wow-delay="0.2s">
         <h1>TARIFFE VELOCI</h1>
         <h3>
           La più veloce e completa modalità di creazione delle tariffe, delle offerte e dei pacchetti.
@@ -86,17 +97,12 @@
           <br>Noi abbiamo creato un'interfaccia pensata proprio per questo. Intuitiva, chiara e facilissima da usare
         </h3>
       </div>
-      <div class="col-md-6 wow fadeInRight text-center" data-wow-delay="0.4s">
-
-        <div class="ipad-mid pull-right">
-          <div class="ipad-mid-inside">
-            <div class="banner">
-              <ul>
-                <li class="ipad-mid-rate"></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <div class="col-md-7 wow fadeInRight text-center" data-wow-delay="0.4s">
+     
+      <div class="magnify macbook-magnify">
+        <div class="large"></div>
+        <img class="small" src="/img/services/macbook-full-rate-lg.png" width="500" />
+      </div>
 
       </div>
     </div>
@@ -118,7 +124,7 @@
       <div class="col-md-6 wow fadeInRight text-right" data-wow-delay="0.2s">
         <h1>OFFERTE DEDICATE</h1>
         <h3>Segmentare la clientela è importante.
-          <br>Con ZENsuite non solo potrai farlo ma avrai la possibilità di creare offerte e pacchetti dedicati ai vari segmenti: a chi prenota da Facebook o da mobile.
+          <br>Con ZenSuite non solo potrai farlo ma avrai la possibilità di creare offerte e pacchetti dedicati ai vari segmenti: a chi prenota da Facebook o da mobile.
           <br>Inoltre potrai dedicare offerte speciali ai tuoi clienti in base alla loro provenienza geografica: Germania, Francia, Spagna, o dovunque tu voglia
         </h3>
       </div>
@@ -181,15 +187,15 @@
 <div class="footer">
   <div class="row">
     <div class="col-sm-4">
-      <div class="logo-white"></div>
-      <h2>
-        <b>ZEN</b>SUITE</h2>
-        <ul class="social-icons list-inline">
-          <li><a href="https://www.facebook.com/zensuite"><i class="fa fa-facebook"></i></a></li>
-          <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-          <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-        
+      <a href="/">
+        <div class="logo-white"></div>
+        <h2><b>Zen</b>Suite</h2>
+      </a>
+      <ul class="social-icons list-inline">
+        <li><a href="https://www.facebook.com/zensuite"><i class="fa fa-facebook"></i></a></li>
+        <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+      </ul>
     </div>
     <div class="col-sm-8 pull-right text-right">
       <p>&copy; 2014 ZenTechnologies Ltd | All Rights Reserved</p>
@@ -199,13 +205,16 @@
   
 
 <!-- JS -->
+<script src="/bower_components/prefixfree/prefixfree.min.js"></script>
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="/js/services/modernizr.custom.js"></script>
 <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/bower_components/unslider/src/unslider.min.js"></script>
 <script src="/bower_components/wow/dist/wow.min.js"></script>
 <script src="/js/services/morphing-device.js"></script>
+<script src="/js/services/magnifying.js"></script>
 <script src="/js/services/main.js"></script>
+
 
 </body>
 
