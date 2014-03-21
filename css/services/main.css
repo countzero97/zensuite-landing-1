@@ -174,8 +174,8 @@ text-align: right;
 }
 .iphone-mid {
   background: url('/img/devices/iphone-mid.png');
-  background-size: 250px 453px;
-  width: 250px;
+  background-size: 251px 453px;
+  width: 251px;
   height: 453px;
   margin: 0 auto;
   margin-top: 10px;
@@ -188,6 +188,7 @@ text-align: right;
 }
 .iphone-mid-inside .banner li {
   height: 373px;
+  width: 209px;
 }
 
 .ipad-mid {
@@ -206,7 +207,6 @@ text-align: right;
 .ipad-mid-inside .banner li {
   height: 287px;
 }
-
 
 .banner {
   position: relative;
@@ -236,6 +236,15 @@ text-align: right;
 }
 .iphone-mid-tap {
   background: url('/img/devices-img/iphone-mid-tap-to-call.png') no-repeat center;
+}
+.iphone-mid-availability {
+  background: url('/img/devices-img/iphone-mid-availability.png') no-repeat center;
+}
+.iphone-mid-book-now {
+  background: url('/img/devices-img/iphone-mid-book-now.png') no-repeat center;
+}
+.iphone-mid-book-now-photo {
+  background: url('/img/devices-img/iphone-mid-book-now-photo.png') no-repeat center;
 }
 .ipad-mid-rate {
   background: url('/img/devices-img/ipad-mid-rate.png') no-repeat center;
