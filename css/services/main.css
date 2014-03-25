@@ -70,6 +70,24 @@ h3 {
   color: #FFF;
   background-color: #333;
 }
+
+.btn-box {
+  color: #333;
+  border: 2px solid #333;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0;
+  background: transparent;
+}
+
+.btn-box-agree {
+color: rgb(58, 58, 58);
+border: 2px solid rgb(60, 221, 170);
+}
+
+
+
+
 .background-light {
   background-color: #FBFBFB;
 }

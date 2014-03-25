@@ -56,7 +56,7 @@
           <ul class="dropdown-menu">
             <li><a href="/general">PANORAMICA</a></li>
             <li><a href="/booking-engine">BOOKING ENGINE</a></li>
-            <li><a href="/website-builder">WEBSITE BUILDER</a></li>
+            <!--<li><a href="/website-builder">WEBSITE BUILDER</a></li>-->
             <li><a href="/mobile">MOBILE</a></li>
             <li><a href="/facebook-app">FACEBOOK APP</a></li>
           </ul>
@@ -87,7 +87,7 @@
     <div class="col-md-12 text-center wow fadeInDown">
       <img class="device" src="/img/services/general-top.png">
       <br>
-      <a class="btn btn-md btn-rounded btn-dark margin-t-sm">PROVA SUBITO - GRATIS PER 30 GIORNI</a>
+      <a href="#!" class="btn btn-md btn-rounded btn-dark margin-t-sm trigger-overlay">PROVA SUBITO - GRATIS PER 30 GIORNI</a>
     </div>
   </div> 
 </div>
@@ -209,15 +209,67 @@
 <!-- open/close -->
 <div class="overlay overlay-hugeinc">
     <button type="button" class="overlay-close">Close</button>
-    <nav>
+    <div class="container">
+        
+        
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Contact</a></li>
+            <form class="form-overlay" role="form">
+              <li>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <label for="surname">Surname</label>
+                  <input type="text" class="form-control" id="surname" placeholder="Surname">
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <label for="phone">Phone number</label>
+                  <input type="text" class="form-control" id="phone" placeholder="Phone">
+                </div>
+              </li>
+              <li>
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+              </li>
+            <li>
+              <button class="btn btn-box btn-lg btn-block" type="submit">Request Demo</button>
+            </li>
+            </form>
         </ul>
-    </nav>
+        
+    </div>
+    
+    
+    <!--<div class="container">
+      <form role="form">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">File input</label>
+          <input type="file" id="exampleInputFile">
+          <p class="help-block">Example block-level help text here.</p>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Check me out
+          </label>
+        </div>
+        
+      </form>
+    </div>-->
 </div>
 		
 		
