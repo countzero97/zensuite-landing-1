@@ -15,7 +15,11 @@
   <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="/bower_components/animate.css/animate.min.css" rel="stylesheet">
   <link href="/css/services/morphing-device.css" rel="stylesheet">
+  <link href="/css/services/normalize.css" rel="stylesheet">
+  <link href="/css/services/fullscreen-overlay.css" rel="stylesheet">
+  
   <link href="/css/services/main.css" rel="stylesheet">
+  
   
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
@@ -66,9 +70,10 @@
   </div>
 </div>
 
+
 <div class="container-fluid">
   <div class="container">
-
+    
     <div class="row section-top">
       <h1 class="text-xl">UN MILIARDO DI UTENTI <br> TI ASPETTA</h1>
       <h2>
@@ -82,7 +87,7 @@
       </h2>
       
         
-        <a class="btn btn-md btn-rounded btn-dark margin-t-sm">PROVA SUBITO - GRATIS PER 30 GIORNI</a>
+        <a href="#!" class="btn btn-md btn-rounded btn-dark margin-t-sm trigger-overlay">PROVA SUBITO - GRATIS PER 30 GIORNI</a>
         <br>
 
       <div class="col-md-10 col-md-offset-1 text-center wow fadeInDown">
@@ -194,6 +199,21 @@ Riprenditi il tuo tempo!
 </div>
  
 
+<!-- open/close -->
+<div class="overlay overlay-hugeinc">
+    <button type="button" class="overlay-close">Close</button>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+		
+		
 <div class="footer">
   <div class="row">
     <div class="col-sm-4">
@@ -222,6 +242,10 @@ Riprenditi il tuo tempo!
 <script src="/bower_components/unslider/src/unslider.min.js"></script>
 <script src="/bower_components/wow/dist/wow.min.js"></script>
 <script src="/js/services/morphing-device.js"></script>
+
+<script src="/js/services/classie.js"></script>
+<script src="/js/services/fullscreen-overlay.js"></script>
+
 <script src="/js/services/magnifying.js"></script>
 <script src="/js/services/main.js"></script>
 
