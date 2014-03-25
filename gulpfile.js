@@ -11,6 +11,7 @@ var gulp = require('gulp'),
                 data: {
                     tr: require('./languages/' + language)
                 },
+                defaults: { autoescape: false },
                 ext: '.html'
             };
         });
